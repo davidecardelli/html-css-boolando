@@ -92,6 +92,28 @@ ul {
     right: 0px;
 }
 
+.heart:hover{
+    color: red;
+}
+
 .card {
     position: relative;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+
+.sostenibility {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
 }

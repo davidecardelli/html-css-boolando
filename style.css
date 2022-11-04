@@ -81,6 +81,14 @@ ul {
     display: none;
 }
 
+.card:hover .img-bottom {
+    display: block;
+}
+
+.card:hover .img-top{
+    display: none;
+}
+
 .heart{
     background-color: white;
     width: 30px;

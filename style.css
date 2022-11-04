@@ -1,0 +1,59 @@
+/* RESET CSS */
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+/* GENERAL */
+
+body {
+	font-family: sans-serif;
+}
+
+header {
+    background-color: orange;
+    height: 50px;
+    color: white;
+}
+
+.nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* UTILITY */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.p5 {
+    padding: 10px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+/* HEADER */
+
+.logo img {
+    height: 50px;
+    padding: 10px;
+}
+

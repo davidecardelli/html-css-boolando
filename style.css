@@ -112,15 +112,20 @@ ul {
     background-color: red;
     color: white;
     padding: 5px 10px;
-    position: absolute;
     bottom: 20px;
     left: 0px;
+    margin-right: 5px;
 }
 
 .sostenibility {
     background-color: green;
     color: white;
     padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.label {
+    display: flex;
     position: absolute;
     bottom: 20px;
     left: 0px;

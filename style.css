@@ -166,3 +166,40 @@ ul {
     font-size: 70%;
     text-decoration: line-through;
 }
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    height: 80px;
+    color: white;
+}
+
+.total-footer{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.footer-sx li{
+    margin-top: 10;
+    margin-right: 10px;
+    font-size: 85%;   
+}
+
+.footer-sx p{
+    font-weight: bold;
+    font-size: 85%;   
+    margin-bottom: 10px;
+}
+
+.footer-dx p{
+    font-weight: bold;
+    font-size: 75%;   
+    margin-bottom: 10px;
+}
+
+.loghi-social i{
+    margin-right: 5px;
+}

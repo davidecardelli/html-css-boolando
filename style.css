@@ -35,7 +35,7 @@ ul {
     display: flex;
     gap: 30px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .col {
@@ -137,3 +137,32 @@ ul {
     margin-right: 5px;
 }
 
+/* Descrizione prodotti */
+
+.product-description {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    margin-top: 5px;
+}
+
+.brand {
+    font-size: 70%;
+}
+
+.product {
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.price {
+    color: red;
+    font-size: 70%;
+    margin-right: 5px;
+}
+
+.old-price {
+    font-size: 70%;
+    text-decoration: line-through;
+}

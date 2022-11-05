@@ -73,6 +73,8 @@ ul {
     max-width: 100%;
 }
 
+/* Effetto hover alle immagni */
+
 .img-top {
     display: block;
 }
@@ -88,6 +90,8 @@ ul {
 .card:hover .img-top{
     display: none;
 }
+
+/* Aggiungi ai preferiti */
 
 .heart{
     background-color: white;
@@ -108,6 +112,15 @@ ul {
     position: relative;
 }
 
+/* Etichette sopra i prodotti */
+
+.label {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+
 .discount {
     background-color: red;
     color: white;
@@ -124,9 +137,3 @@ ul {
     margin-right: 5px;
 }
 
-.label {
-    display: flex;
-    position: absolute;
-    bottom: 20px;
-    left: 0px;
-}
